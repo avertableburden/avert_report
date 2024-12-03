@@ -1,4 +1,6 @@
-# ms_tmpl: Generate a template scientific manuscript 
+# avert_report: Generate a report from the avert computational model
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5866880.svg)](https://doi.org/10.5281/zenodo.5866880)
+This is the shell of a reporting template to be used in conjunction with the avert computational model.
+
+
 

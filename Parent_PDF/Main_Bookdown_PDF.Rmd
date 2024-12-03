@@ -11,6 +11,7 @@ output:
     toc: no
 params:
   X: NULL
+  Y: NULL
 abstract: "`r paste0(readLines('../Header/abstract.txt'),collapse=' ')`"
 graphics: yes
 csl: plos.csl

@@ -70,6 +70,7 @@ output:
       - '--lua-filter=../Filters/pagebreaks.lua'
 params:
   X: NULL
+  Y: NULL
 abstract: "`r paste0(stringr::str_replace_all(stringr::str_replace_all(stringr::str_replace_all(stringr::str_replace_all(readLines('../Header/abstract.txt'),'\\\\\\\\textbf',''),'\\{','**'),'\\}','**'),'\\\\\\\\newline','\\\\n'),collapse=' ')`"
 graphics: yes
 csl: plos.csl
