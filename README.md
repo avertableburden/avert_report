@@ -1,5 +1,7 @@
 # avert_report: Generate a report from the avert computational model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14279401.svg)](https://doi.org/10.5281/zenodo.14279401)
+
 This is the shell of a reporting template to be used in conjunction with the avert computational model.
 
 This reporting template is designed for use in conjunction with the `avert` R library. You can install `avert` with the following commands.
