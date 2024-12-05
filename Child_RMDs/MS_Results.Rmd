@@ -5,6 +5,20 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
+Results are reported in this section. 
+
+Example results statistic one:
+
+```{r echo=TRUE}
+avert::get_parameter_value("first", params$Y)
+```
+
+Example results statistic two:
+
+```{r echo=TRUE}
+avert::get_parameter_value("second", params$Y)
+```
+
 ```{r child="MS_Tables.Rmd", echo=FALSE}
 ```
 ```{r child="MS_Figures.Rmd", echo=FALSE}
