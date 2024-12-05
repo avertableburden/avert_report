@@ -1,14 +1,23 @@
 ---
 bibliography: ../Data/references.bib
-output:
-  bookdown::pdf_document2:
+output: 
+  bookdown::pdf_book: 
+    base_format: rticles::arxiv_article
+    includes:
+      in_header: preamble.tex
     pandoc_args: 
       - "--metadata-file=../Header/header_common.yaml"
       - '--lua-filter=../Filters/scholarly-metadata.lua'
       - '--lua-filter=../Filters/author-info-blocks.lua'
-    toc: yes
+  bookdown::pdf_document2: 
     includes:
       in_header: preamble.tex
+    pandoc_args: 
+      - "--metadata-file=../Header/header_common.yaml"
+      - '--lua-filter=../Filters/scholarly-metadata.lua'
+      - '--lua-filter=../Filters/author-info-blocks.lua'
+    toc: no
+## CUSTOM_AUTHORS_PLACEHOLDER ##
 params:
   X: NULL
   Y: NULL

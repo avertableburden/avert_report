@@ -1,0 +1,10 @@
+title: A hypothetical report from the avert compuational model
+author:
+  - FirstName  FamilyNAme:
+      email: fake_email@fake_institute.com
+      institute: [Institute_A, Institute_B]
+      correspondence: true
+institute:
+  - Institute_A: Institute A, Australia
+  - Institute_B: Institute B, Australia
+keywords:  entirely, fake, do, not, cite

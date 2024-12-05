@@ -9,19 +9,9 @@ output: html_document
 ```
 
 \newpage
+# References {-}
 
-
-```{r echo=FALSE}
-if(!identical(readLines("../Data/references.bib"), character(0))){
-  child_refs_1L_chr <- c("../Child_RMDs/MS_References.Rmd")
-}else{
-  child_refs_1L_chr <- NULL
-}
-```
-
-```{r, child = child_refs_1L_chr, echo=FALSE}
-```
-
+<div id="refs"></div>
 ```{r echo=FALSE}
 if(!params$X@tables_in_body_lgl){
   child_tabs_1L_chr <- c("../Child_RMDs/MS_Cndl_Tabs_Not_In_Body.Rmd")
@@ -39,7 +29,6 @@ if(!params$X@figures_in_body_lgl){
 ```
 ```{r, child = child_figs_1L_chr, echo=FALSE}
 ```
-
 \newpage
 \appendix
 \counterwithin{figure}{section}

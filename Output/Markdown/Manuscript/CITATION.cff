@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Hamilton, Matthew. (2024). avert_report: Generate a report from the avert computational model"
+authors:
+  - family-names: "Hamilton"
+    given-names: "Matthew"
+    orcid: https://orcid.org/0000-0001-7407-9194
+title: "avert_report: Generate a report from the avert computational model"
+version: 0.1.1
+date-released: 2024-12-03
+url: "https://github.com/avertableburden/avert_report"

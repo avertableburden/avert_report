@@ -32,7 +32,14 @@ output: html_document
 ```{r child="../Child_RMDs/MS_Available_Data_And_Resources.Rmd", echo=FALSE}
 ```
 
+## Ethics approval {-}
+```{r child="../Child_RMDs/MS_Ethics.Rmd", echo=FALSE}
+```
+
 ## Funding {-#funding}
 ```{r child="../Child_RMDs/MS_Funding.Rmd", echo=FALSE}
 ```
 
+## Conflict of Interest {-#conflict-of-interest}
+```{r child="../Child_RMDs/MS_COI.Rmd", echo=FALSE}
+```
