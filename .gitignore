@@ -1,6 +1,7 @@
 /R/
 /Tests/Markdown
 /Tests/Report
+
 # History files
 .Rhistory
 .Rapp.history
